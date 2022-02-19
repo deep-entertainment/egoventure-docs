@@ -63,4 +63,8 @@ html_context = {
     "conf_py_path": "/",  # Path in the checkout to the docs root
 }
 
+myst_enable_extensions = [
+    'colon_fence'
+]
+
 html_logo = "docs/images/logo.png"

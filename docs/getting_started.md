@@ -17,7 +17,12 @@ In the following sections we will guide you how to start creating your first gam
 
 ## Downloading Godot
 
-Go to https://godotengine.org/download and download the current stable version of the Godot engine for your operating system and install it.
+Go to https://godotengine.org/download and download [Godot 3.3.4](https://github.com/godotengine/godot/releases/tag/3.3.4-stable)  for your operating system and install it.
+
+:::{important}
+EgoVenture currently doesn't support Godot 3.4 yet. We plan to have it available
+with one of the next releases.
+:::
 
 ## Create a new Project
 
