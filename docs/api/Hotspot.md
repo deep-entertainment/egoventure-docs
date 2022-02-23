@@ -51,6 +51,14 @@ export var visibility_state = ""
 Show this hotspot depending on the boolean value of this state
 variable
 
+### show\_indicator
+
+```gdscript
+export var show_indicator = true
+```
+
+Whether to show the hotspot indicator or not
+
 ## Signals
 
 - signal activate(): A signal that can be connected to for custom actions of
