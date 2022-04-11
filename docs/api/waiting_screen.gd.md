@@ -8,6 +8,16 @@
 
 A waiting screen shown when the scene cache is updatede
 
+## Property Descriptions
+
+### is\_skippable
+
+```gdscript
+var is_skippable: bool = false
+```
+
+Whether the loading is currently skippable
+
 ## Method Descriptions
 
 ### show
@@ -57,3 +67,7 @@ Set the waiting image
 ** Parameters **
 
 - image: The image to set
+
+## Signals
+
+- signal skipped(): The screen was skipped

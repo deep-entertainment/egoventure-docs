@@ -331,3 +331,11 @@ var cache_minimum_wait_seconds: int = 4
 ```
 
 The minimum time to show the loading indicator when precaching
+
+### cache\_minimum\_wait\_skippable
+
+```gdscript
+var cache_minimum_wait_skippable: bool = false
+```
+
+Whether the minimum wait time can be skipped by left clicking

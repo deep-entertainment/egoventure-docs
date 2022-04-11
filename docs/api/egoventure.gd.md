@@ -336,6 +336,14 @@ func wait_screen(time: float)
 
 Show a waiting screen for the given time
 
+### wait\_skipped
+
+```gdscript
+func wait_skipped()
+```
+
+Called when the waiting screen was skipped
+
 ### reset\_continue\_state
 
 ```gdscript
@@ -350,3 +358,4 @@ Reset the continue state
 - signal queue_complete(): Emits when the queue of the scene cache has completed
 - signal requested_view_change(to): Emitted when a loaded game needs to change the target view but is
 already in the current scene
+- signal waiting_completed(): Emitted when the waiting screen finished loading
