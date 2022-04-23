@@ -124,18 +124,6 @@ Configure the game from the game's core class
 
 - p_configuration: The game configuration
 
-### check\_cursor
-
-```gdscript
-func check_cursor(offset: Vector2 = "(0, 0)")
-```
-
-Checks wether the mouse cursor needs to be changed
-
-** Arguments **
-
-- offset: A vector to add to the mouse position for calculation
-
 ### change\_scene
 
 ```gdscript
