@@ -93,6 +93,14 @@ export var left_texture = "[Object:null]"
 
 The texture for the left view
 
+### enable\_navigation
+
+```gdscript
+export var enable_navigation = true
+```
+
+Whether navigation features are enabled in this room
+
 ### current\_view
 
 ```gdscript

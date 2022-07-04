@@ -145,6 +145,14 @@ export var backleft_texture = "[Object:null]"
 export var left_texture = "[Object:null]"
 ```
 
+### enable\_navigation
+
+```gdscript
+export var enable_navigation = true
+```
+
+Whether navigation features are enabled in this room
+
 ### current\_view
 
 ```gdscript
