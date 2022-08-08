@@ -28,6 +28,14 @@ export var valid_inventory_items: Array = []
 
 The list of valid inventory items that can be used on this hotspot
 
+### show\_indicator
+
+```gdscript
+export var show_indicator = true
+```
+
+Whether to show the hotspot indicator or not
+
 ## Method Descriptions
 
 ### on\_mouse\_entered
