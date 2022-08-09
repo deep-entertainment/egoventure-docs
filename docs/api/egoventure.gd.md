@@ -136,6 +136,18 @@ Switch the current scene to the new scene
 
 - path: The absolute path to the new scene
 
+### set\_parrot\_skip\_enabled
+
+```gdscript
+func set_parrot_skip_enabled(value: bool)
+```
+
+Set whether dialog line skipping is enabled in parrot
+
+** Arguments **
+
+- value: Whether skipping is enabled
+
 ### save
 
 ```gdscript
@@ -307,6 +319,8 @@ Return the current speech volume
 ```gdscript
 func set_full_screen()
 ```
+
+Set full screen according to game configuration
 
 ### reset
 
