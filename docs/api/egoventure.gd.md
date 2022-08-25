@@ -102,14 +102,6 @@ var wait_timer: Timer
 
 A timer that runs down while a waiting screen is shown
 
-### interactive
-
-```gdscript
-var interactive: bool = true
-```
-
-Whether the game currently accepts input
-
 ### is\_touch
 
 ```gdscript
