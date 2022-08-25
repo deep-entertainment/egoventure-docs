@@ -58,6 +58,22 @@ var menu_switch_effect: AudioStream
 
 A sound effect to play when the something is pressed
 
+### menu\_button\_effect\_hover
+
+```gdscript
+var menu_button_effect_hover: AudioStream
+```
+
+A sound effect played when the mouse is over the menu button
+
+### menu\_button\_effect\_click
+
+```gdscript
+var menu_button_effect_click: AudioStream
+```
+
+A sound effect played when the a menu button is clicked
+
 ### menu\_saveslots\_background
 
 ```gdscript
