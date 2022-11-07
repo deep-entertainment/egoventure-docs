@@ -74,6 +74,14 @@ var menu_button_effect_click: AudioStream
 
 A sound effect played when the a menu button is clicked
 
+### menu\_item\_separation
+
+```gdscript
+var menu_item_separation: int = 30
+```
+
+The main menu item separation
+
 ### menu\_saveslots\_background
 
 ```gdscript
