@@ -81,3 +81,11 @@ export var overridden_cursors: Dictionary = {}
 ```
 
 The currently overridden cursors
+
+### parrot\_skip\_enabled
+
+```gdscript
+export var parrot_skip_enabled: bool = true
+```
+
+Whether skipping in Parrot is enabled

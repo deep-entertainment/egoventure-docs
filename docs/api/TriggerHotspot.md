@@ -14,7 +14,7 @@ mouse cursor when no item is selected
 ### visibility\_state
 
 ```gdscript
-var visibility_state: String = ""
+export var visibility_state: String = ""
 ```
 
 Show this hotspot depending on the boolean value of this state
@@ -23,10 +23,18 @@ variable
 ### valid\_inventory\_items
 
 ```gdscript
-var valid_inventory_items: Array
+export var valid_inventory_items: Array = []
 ```
 
 The list of valid inventory items that can be used on this hotspot
+
+### show\_indicator
+
+```gdscript
+export var show_indicator = true
+```
+
+Whether to show the hotspot indicator or not
 
 ## Method Descriptions
 

@@ -57,3 +57,11 @@ var continue_state: BaseState
 ```
 
 The continue state, that is saved automatically
+
+### locale
+
+```gdscript
+var locale: String = ""
+```
+
+The selected locale

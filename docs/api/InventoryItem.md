@@ -13,7 +13,7 @@ An inventory item
 ### title
 
 ```gdscript
-var title: String
+export var title: String = ""
 ```
 
 The title of the inventory item
@@ -21,7 +21,7 @@ The title of the inventory item
 ### description
 
 ```gdscript
-var description: String
+export var description: String = ""
 ```
 
 A description for the inventory item
@@ -29,7 +29,7 @@ A description for the inventory item
 ### image\_normal
 
 ```gdscript
-var image_normal: Texture
+export var image_normal: Texture = "[Object:null]"
 ```
 
 The image/mouse pointer for the inventory item
@@ -37,7 +37,7 @@ The image/mouse pointer for the inventory item
 ### image\_active
 
 ```gdscript
-var image_active: Texture
+export var image_active: Texture = "[Object:null]"
 ```
 
 The image/mouse pointer for the inventory item if it's selected
@@ -45,7 +45,7 @@ The image/mouse pointer for the inventory item if it's selected
 ### image\_big
 
 ```gdscript
-var image_big: Texture
+export var image_big: Texture = "[Object:null]"
 ```
 
 The big image used in detail views
@@ -53,7 +53,7 @@ The big image used in detail views
 ### combineable\_with
 
 ```gdscript
-var combineable_with: Array
+export var combineable_with: Array = []
 ```
 
 The items this item can be combined with
@@ -61,7 +61,7 @@ The items this item can be combined with
 ### detail\_scene
 
 ```gdscript
-var detail_scene: String = ""
+export var detail_scene: String = ""
 ```
 
 A scene to load for the detail view instead of the big image
@@ -69,7 +69,17 @@ A scene to load for the detail view instead of the big image
 ### detail\_show\_mouse
 
 ```gdscript
-var detail_show_mouse: bool = false
+export var detail_show_mouse: bool = false
 ```
 
-Wether to show the mouse cursor in the detail view
+Whether to show the mouse cursor in the detail view
+
+### grabbable
+
+```gdscript
+export var grabbable: bool = true
+```
+
+Whether the item is selectable and useable on the screen
+If set to false, clicking the item with either mouse button will show the
+(custom) detail view

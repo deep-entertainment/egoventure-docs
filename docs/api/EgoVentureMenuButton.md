@@ -7,3 +7,7 @@
 ## Description
 
 A button for the EgoVenture main menu
+
+## Signals
+
+- signal button_pressed(): Signal emitted when button is pressed (adds a sound effect before emitting)

@@ -1,15 +1,23 @@
 <!-- Auto-generated from JSON by GDScript docs maker. Do not edit this document directly. -->
 
-# FourSideRoom
+# EightSideRoom
 
 **Extends:** [Node2D](../Node2D)
 
 ## Description
 
 A scene, that can be instantiated in a scene and features a room
-with four different sides with automatic view navigation using a Camera2D
+with up to eight different sides with automatic view navigation using a Camera2D
 
 ## Constants Descriptions
+
+### TEXTURE\_DISTANCE
+
+```gdscript
+const TEXTURE_DISTANCE: int = 100
+```
+
+Distance between textures to allow overlapping hotspot areas
 
 ### VIEW\_BACK
 
@@ -17,7 +25,17 @@ with four different sides with automatic view navigation using a Camera2D
 const VIEW_BACK: String = "back"
 ```
 
-The backwards view
+### VIEW\_BACKLEFT
+
+```gdscript
+const VIEW_BACKLEFT: String = "backleft"
+```
+
+### VIEW\_BACKRIGHT
+
+```gdscript
+const VIEW_BACKRIGHT: String = "backright"
+```
 
 ### VIEW\_FRONT
 
@@ -25,7 +43,19 @@ The backwards view
 const VIEW_FRONT: String = "front"
 ```
 
-The front view
+### VIEW\_FRONTLEFT
+
+```gdscript
+const VIEW_FRONTLEFT: String = "frontleft"
+```
+
+view constants
+
+### VIEW\_FRONTRIGHT
+
+```gdscript
+const VIEW_FRONTRIGHT: String = "frontright"
+```
 
 ### VIEW\_LEFT
 
@@ -33,15 +63,11 @@ The front view
 const VIEW_LEFT: String = "left"
 ```
 
-The left view
-
 ### VIEW\_RIGHT
 
 ```gdscript
 const VIEW_RIGHT: String = "right"
 ```
-
-The right view
 
 ### VIEW\_UNSET
 
@@ -53,6 +79,14 @@ An unset view
 
 ## Property Descriptions
 
+### view\_dict
+
+```gdscript
+var view_dict
+```
+
+Dictionary used to map view constant to index (and back)
+
 ### default\_view
 
 ```gdscript
@@ -61,13 +95,25 @@ export var default_view = "front"
 
 The default/starting view of the four views
 
+### frontleft\_texture
+
+```gdscript
+export var frontleft_texture = "[Object:null]"
+```
+
+The texture for the front view
+
 ### front\_texture
 
 ```gdscript
 export var front_texture = "[Object:null]"
 ```
 
-The texture for the front view
+### frontright\_texture
+
+```gdscript
+export var frontright_texture = "[Object:null]"
+```
 
 ### right\_texture
 
@@ -75,7 +121,11 @@ The texture for the front view
 export var right_texture = "[Object:null]"
 ```
 
-The texture for the right view
+### backright\_texture
+
+```gdscript
+export var backright_texture = "[Object:null]"
+```
 
 ### back\_texture
 
@@ -83,15 +133,17 @@ The texture for the right view
 export var back_texture = "[Object:null]"
 ```
 
-The texture for the backwards view
+### backleft\_texture
+
+```gdscript
+export var backleft_texture = "[Object:null]"
+```
 
 ### left\_texture
 
 ```gdscript
 export var left_texture = "[Object:null]"
 ```
-
-The texture for the left view
 
 ### enable\_navigation
 

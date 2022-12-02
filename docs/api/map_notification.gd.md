@@ -10,14 +10,6 @@ A simple sprite flashing a map
 
 ## Method Descriptions
 
-### configure
-
-```gdscript
-func configure(configuration: GameConfiguration)
-```
-
-configure the map notification
-
 ### notify
 
 ```gdscript

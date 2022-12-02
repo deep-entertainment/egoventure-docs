@@ -20,10 +20,10 @@ Wether the DetailView is currently visible
 
 ## Method Descriptions
 
-### show
+### show\_with\_item
 
 ```gdscript
-func show(item: InventoryItem)
+func show_with_item(item: InventoryItem)
 ```
 
 Show the item

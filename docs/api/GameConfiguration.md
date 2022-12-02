@@ -58,6 +58,30 @@ var menu_switch_effect: AudioStream
 
 A sound effect to play when the something is pressed
 
+### menu\_button\_effect\_hover
+
+```gdscript
+var menu_button_effect_hover: AudioStream
+```
+
+A sound effect played when the mouse is over the menu button
+
+### menu\_button\_effect\_click
+
+```gdscript
+var menu_button_effect_click: AudioStream
+```
+
+A sound effect played when the a menu button is clicked
+
+### menu\_item\_separation
+
+```gdscript
+var menu_item_separation: int = 30
+```
+
+The main menu item separation
+
 ### menu\_saveslots\_background
 
 ```gdscript
@@ -93,20 +117,10 @@ The color used for empty save slots
 ### menu\_saveslots\_free\_text
 
 ```gdscript
-var menu_saveslots_free_text: String = "Free save slot"
+var menu_saveslots_free_text: String = "SAVESLOTS_FREE"
 ```
 
 The text shown under the free save slot
-
-### menu\_saveslots\_date\_format
-
-```gdscript
-var menu_saveslots_date_format: String = "{month}/{day}/{year} {hour}:{minute}"
-```
-
-The date format for the save slots
-The following place holders are available:
-{month}, {day}, {year}, {hour}, {minute}
 
 ### menu\_options\_background
 
@@ -132,10 +146,34 @@ var menu_options_effects_sample: AudioStream
 
 The sample to play when the effect slider is changed
 
+### menu\_options\_locale\_button\_modulate
+
+```gdscript
+var menu_options_locale_button_modulate: Color = "1,1,1,0.2"
+```
+
+The modulate color for selected locale flags
+
+### menu\_options\_locale\_button\_modulate\_selected
+
+```gdscript
+var menu_options_locale_button_modulate_selected: Color = "1,1,1,1"
+```
+
+The modulate color for selected locale flags
+
+### menu\_options\_hide\_language\_selection
+
+```gdscript
+var menu_options_hide_language_selection: bool = false
+```
+
+Hide the language selection from the options menu
+
 ### menu\_quit\_confirmation
 
 ```gdscript
-var menu_quit_confirmation: String = "Do you really want to quit the game?"
+var menu_quit_confirmation: String = "DIALOG_QUIT"
 ```
 
 The confirmation text for the quit confirmation prompt
@@ -143,7 +181,7 @@ The confirmation text for the quit confirmation prompt
 ### menu\_overwrite\_confirmation
 
 ```gdscript
-var menu_overwrite_confirmation: String = "Are you sure you want to overwrite a saved game?"
+var menu_overwrite_confirmation: String = "DIALOG_OVERWRITE"
 ```
 
 The confirmation text for the overwrite confirmation prompt
@@ -151,7 +189,7 @@ The confirmation text for the overwrite confirmation prompt
 ### menu\_restart\_confirmation
 
 ```gdscript
-var menu_restart_confirmation: String = "You will lose all progress when starting a new game. Do you really want to restart?"
+var menu_restart_confirmation: String = "DIALOG_RESTART"
 ```
 
 The confirmation text for the restart confirmation prompt
@@ -317,3 +355,11 @@ var cache_minimum_wait_seconds: int = 4
 ```
 
 The minimum time to show the loading indicator when precaching
+
+### cache\_minimum\_wait\_skippable
+
+```gdscript
+var cache_minimum_wait_skippable: bool = false
+```
+
+Whether the minimum wait time can be skipped by left clicking
