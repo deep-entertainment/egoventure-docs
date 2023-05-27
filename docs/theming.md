@@ -12,7 +12,7 @@ This document describes the available theming settings.
 
 Upon opening _theme.tres_ using the file system browser in Godot, the inspector shows the theme like this:
 
-<img title="" src="file:///Users/dennis.ploeger/Library/Mobile Documents/com~apple~CloudDocs/Dennis/Hobbies/games/MDNA/images/0c722878cae5ee36d9a82e5babd7fc03f5f3e25d.png" alt="The theme options" data-align="center">
+![The theme options](images/theme.png)
 
 The theme is categorized in different UI element types. Throughout the game, different aspects use different UI elements to achieve the desired result.
 
@@ -89,6 +89,7 @@ Used in the game options for the "Volume"-settings
 | Styles      | Detail View     | The background used in the inventory item detail view | Detail view |
 |             | Dialog Panel    | The background used in the Parrot dialogs             | Dialogs     |
 |             | Inventory Panel | The background of the inventory panel                 | Inventory   |
+|             | Inventory Panel Touch | The background of the inventory panel for touch devices                | Inventory   |
 |             | Notepad Panel   | The background behind the image of the notepad        | Notepad     |
 |             | Saveslot Panel  | The design of an empty saveslot                       | Save Slots  |
 
