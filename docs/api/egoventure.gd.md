@@ -8,17 +8,6 @@
 
 First person point and click adventure framework for Godot
 
-## Constants Descriptions
-
-### SCENE\_REGEX
-
-```gdscript
-const SCENE_REGEX: String = "^[a-z_-]+(?<index>\\d+)\\D?.*$"
-```
-
-A regex to search for the scene index in a scene filename.
-e.g.: home04b.tscn has the index 4, castle12detail1.tscn has the index 12.
-
 ## Property Descriptions
 
 ### state

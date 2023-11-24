@@ -14,7 +14,7 @@ Uses the ResourceQueue as described in the Godot documentation
 ### \_init
 
 ```gdscript
-func _init(cache_count: int, scene_path: String, scene_regex: String, permanent_cache: PoolStringArray)
+func _init(cache_count: int, scene_path: String, permanent_cache: PoolStringArray, cache_max_size: int)
 ```
 
 ### update\_progress
@@ -53,6 +53,61 @@ are not used anymore
 - current_scene: The path and filename of the current scene
 **Returns** Number of cached scenes
 
+### update\_permanent\_cache
+
+```gdscript
+func update_permanent_cache(scene: String)
+```
+
+Add a scene to the permanent cache
+Scenes in permanent cache are not handled by cache manager
+
+** Parameters **
+
+- scene: scene that is to be added to permanent cache
+
+### print\_cache\_mgr
+
+```gdscript
+func print_cache_mgr()
+```
+
+Print content of cache and cache manager to output
+(for cache verification)
+
 ## Signals
 
 - signal queue_complete(): All pending resources were loaded
+
+## Sub\-classes
+
+### CacheMgmt
+
+#### Property Descriptions
+
+### age
+
+```gdscript
+var age: int
+```
+
+Indicates the age when the scene was inserted or updated in the cache
+minus the distance to the current scene
+
+### size
+
+```gdscript
+var size: float
+```
+
+Size of the textures of the scene (in Megabyte)
+
+#### Method Descriptions
+
+### \_init
+
+```gdscript
+func _init(age, size)
+```
+
+Constructor

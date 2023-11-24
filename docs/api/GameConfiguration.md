@@ -335,10 +335,18 @@ The path where the scenes are stored
 ### cache\_scene\_count
 
 ```gdscript
-var cache_scene_count: int = 3
+var cache_scene_count: int = 2
 ```
 
 Number of scenes to precache before and after the current scene
+
+### cache\_maximum\_size\_megabyte
+
+```gdscript
+var cache_maximum_size_megabyte: int = 50
+```
+
+Size of scene cache in MB
 
 ### cache\_permanent
 
