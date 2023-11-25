@@ -4,7 +4,7 @@ This document outlines the basic design of *EgoVenture*.
 
 *EgoVenture* makes heavy use of [singletons]([Singletons (AutoLoad) &mdash; Godot Engine (stable) documentation in English](https://docs.godotengine.org/en/stable/getting_started/step_by_step/singletons_autoload.html)). The central singletons are `EgoVenture`, which handles the most basic parts of the game, `Backpack` for inventory handling and `Boombox` for handling audio.
 
-The whole game is made up of multiple Godot [scenes](scenes.md), that are switched when walking through the environments. Multiple parts of the environments (called *locations*) are bound together using a map scene. To optimize for performance and memory consumption, *EgoVenture* contains a scene caching algorithm that precaches upcoming scenes based on an index in their filenames and also removes unneeded scenes after a few steps.
+The whole game is made up of multiple Godot [scenes](scenes.md), that are switched when walking through the environments. Multiple parts of the environments (called *locations*) are bound together using a map scene. To optimize for performance and memory consumption, *EgoVenture* contains a scene caching algorithm that precaches upcoming scenes based on a cache map that can be generated when editing the game.
 
 Various tools like special *hotspots* are provided to ease and streamline game development.
 

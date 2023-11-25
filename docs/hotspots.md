@@ -22,7 +22,7 @@ For details, refer to the [LookHotspot API doc](api/LookHotspot.md).
 
 ## MapHotspot
 
-The `MapHotspot` is specifically used in map scenes. Additionally to the `target_scene` and `target_view` from the Hotspot, it also needs a `target_location`.
+The `MapHotspot` is specifically used in map scenes. Additionally to the `target_scene` and `target_view` from the Hotspot, it also supports a `target_location`.
 
 When clicked, it switches the location, starts a location-specific music, caches the scenes around the target scene and shows a loading image.
 
