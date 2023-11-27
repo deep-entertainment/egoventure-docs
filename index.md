@@ -32,6 +32,7 @@ docs/hints.md
 docs/tools.md
 docs/theming.md
 docs/updating.md
+docs/cache.md
 docs/api/index
 ```
 
