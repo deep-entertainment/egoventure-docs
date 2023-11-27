@@ -1,6 +1,8 @@
 ###### Requirements without Version Specifiers ######
 myst_parser
 doc8
+# Because of https://github.com/readthedocs/readthedocs.org/issues/10279 and https://github.com/readthedocs/sphinx_rtd_theme/issues/1463
+sphinx<7
 sphinx-rtd-theme
 
 ###### Requirements with Version Specifiers ######
