@@ -10,14 +10,6 @@ The MDNA main menu
 
 ## Constants Descriptions
 
-### AUDIO\_MIN
-
-```gdscript
-const AUDIO_MIN: float = -60
-```
-
-Lowest Audio level
-
 ### MINIMUM\_SAMPLE\_TIME
 
 ```gdscript
@@ -74,6 +66,14 @@ func toggle()
 ```
 
 Toggle the display of the menu and play the menu music
+
+### main\_menu\_is\_displayed
+
+```gdscript
+func main_menu_is_displayed()
+```
+
+Returns true if the main menu is shown and no pop-ups are shown
 
 ## Signals
 

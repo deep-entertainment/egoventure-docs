@@ -122,6 +122,14 @@ var menu_saveslots_free_text: String = "SAVESLOTS_FREE"
 
 The text shown under the free save slot
 
+### menu\_saveslots\_page\_label\_alignment
+
+```gdscript
+var menu_saveslots_page_label_alignment: int = 0
+```
+
+Orientation of save slot page indicator
+
 ### menu\_options\_background
 
 ```gdscript
@@ -193,6 +201,46 @@ var menu_restart_confirmation: String = "DIALOG_RESTART"
 ```
 
 The confirmation text for the restart confirmation prompt
+
+### menu\_message\_load
+
+```gdscript
+var menu_message_load: String = ""
+```
+
+Notification message when game has been loaded
+
+### menu\_message\_save
+
+```gdscript
+var menu_message_save: String = "MESSAGE_SAVE"
+```
+
+Notification message when game has been saved
+
+### menu\_message\_align\_horizontal
+
+```gdscript
+var menu_message_align_horizontal: int = 1
+```
+
+Horizontal alignment of message
+
+### menu\_message\_align\_vertical
+
+```gdscript
+var menu_message_align_vertical: int = 2
+```
+
+Vertical alignment of message
+
+### menu\_message\_duration\_seconds
+
+```gdscript
+var menu_message_duration_seconds: float = 1
+```
+
+Duration of message display in seconds
 
 ### inventory\_size
 
@@ -371,3 +419,27 @@ var cache_minimum_wait_skippable: bool = false
 ```
 
 Whether the minimum wait time can be skipped by left clicking
+
+### debug\_display\_scene\_path
+
+```gdscript
+var debug_display_scene_path: bool = false
+```
+
+Display scene path name in game (only in debug build)
+
+### debug\_message\_align\_horizontal
+
+```gdscript
+var debug_message_align_horizontal: int = 2
+```
+
+Horizontal alignment of debug message
+
+### debug\_message\_align\_vertical
+
+```gdscript
+var debug_message_align_vertical: int = 2
+```
+
+Vertical alignment of debug message

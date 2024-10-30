@@ -124,7 +124,7 @@ Configure the game from the game's core class
 ### change\_scene
 
 ```gdscript
-func change_scene(path: String)
+func change_scene(path: String, load_game_mode: bool = false)
 ```
 
 Switch the current scene to the new scene
@@ -132,6 +132,7 @@ Switch the current scene to the new scene
 ** Arguments **
 
 - path: The absolute path to the new scene
+- load_game_mode: true when the scene of a savegame is loaded, default is false
 
 ### set\_parrot\_skip\_enabled
 
