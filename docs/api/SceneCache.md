@@ -17,6 +17,17 @@ Uses the ResourceQueue as described in the Godot documentation
 func _init(cache_count: int, scene_path: String, permanent_cache: PoolStringArray, cache_max_size: int)
 ```
 
+Initialize the cache
+
+** Parameters **
+
+- cache_count: The number of scenes to cache before and after the
+  current scene
+- scene_path: The absolute path where scenes are stored
+  has to include a named group called "index"
+- permanent_cache: A list of scenes that is cached permanently
+- cache_max_size: Maximum size of cache (w/o permanent cache) in megabyte
+
 ### update\_progress
 
 ```gdscript
@@ -91,6 +102,7 @@ Print content of cache and cache manager to output
 var age: int
 ```
 
+Inner class for parameters of cached scenes
 Indicates the age when the scene was inserted or updated in the cache
 minus the distance to the current scene
 
@@ -100,6 +112,9 @@ minus the distance to the current scene
 var size: float
 ```
 
+Inner class for parameters of cached scenes
+Indicates the age when the scene was inserted or updated in the cache
+minus the distance to the current scene
 Size of the textures of the scene (in Megabyte)
 
 #### Method Descriptions

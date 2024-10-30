@@ -74,24 +74,31 @@ Used in the game options for the "Volume"-settings
 
 | Subcategory | Setting                | Description                                                  | Used in        |
 | ----------- | ---------------------- | ------------------------------------------------------------ | -------------- |
-| Colors      | Detail View Font Color | The font color of the detail view description                | Detail View    |
+| Colors      | Debug Message Font Color | The font color used for scene name display in debug mode      | Message Screen |
+|             | Detail View Font Color | The font color of the detail view description                | Detail View    |
 |             | Font Color             | The font color of various items (based on labels) like the date labels, the menu titles, etc. | Various places |
 |             | Goals                  | The font color of the goals in the notepad                   | Notepad        |
 |             | Hints                  | The font color of the hints in the notepad                   | Notepad        |
-| Fonts       | Detail View            | The font used for the description in the detail view         | Detail view    |
+|             | Message Screen Font Color | The font color of the load/save game message                 | Message Screen |
+| Fonts       | Debug Message          | The font used for scene name display in debug mode           | Message Screen |
+|             | Detail View            | The font used for the description in the detail view         | Detail View    |
 |             | Goals                  | The font used for the goals in the notepad                   | Notepad        |
 |             | Hints                  | The font used for the hints in the notepad                   | Notepad        |
+|             | Message Screen         | The font used for the load/save game message                 | Message Screen |
+|             | Saveslots Date         | The font used for the date/time in load/save menu            | Save Slots     |
+|             | Saveslots Page         | The font used for the page label in load/save menu           | Save Slots     |
 
 ## Panel
 
-| Subcategory | Setting         | Description                                           | Used in     |
-| ----------- | --------------- | ----------------------------------------------------- | ----------- |
-| Styles      | Detail View     | The background used in the inventory item detail view | Detail view |
-|             | Dialog Panel    | The background used in the Parrot dialogs             | Dialogs     |
-|             | Inventory Panel | The background of the inventory panel                 | Inventory   |
-|             | Inventory Panel Touch | The background of the inventory panel for touch devices                | Inventory   |
-|             | Notepad Panel   | The background behind the image of the notepad        | Notepad     |
-|             | Saveslot Panel  | The design of an empty saveslot                       | Save Slots  |
+| Subcategory | Setting         | Description                                           | Used in        |
+| ----------- | --------------- | ----------------------------------------------------- | -------------- |
+| Styles      | Detail View     | The background used in the inventory item detail view | Detail View    |
+|             | Dialog Panel    | The background used in the Parrot dialogs             | Dialogs        |
+|             | Inventory Panel | The background of the inventory panel                 | Inventory      |
+|             | Inventory Panel Touch | The background of the inventory panel for touch devices | Inventory      |
+|             | Message Screen  | The background of the load/save game message          | Message Screen |
+|             | Notepad Panel   | The background behind the image of the notepad        | Notepad        |
+|             | Saveslot Panel  | The design of an empty saveslot                       | Save Slots     |
 
 ## Progress Bar
 

@@ -79,6 +79,16 @@ Enable the inventory system
 func add_item(item: InventoryItem, skip_show: bool = false, allow_duplicate: bool = false, position: int)
 ```
 
+Add an item to the inventory
+
+** Parameters **
+
+- item: Item to add to the inventory
+- skip_show: Skip the reveal animation of the inventory bar
+- allow_duplicate: Allow to add an inventory item already in the inventory
+- position: Position in the list of inventory items where to add the new
+  item (defaults to the end of the list)
+
 ### remove\_item
 
 ```gdscript
