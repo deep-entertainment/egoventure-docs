@@ -352,6 +352,23 @@ func reset_continue_state()
 
 Reset the continue state
 
+### pause
+
+```gdscript
+func pause(duration: float = 1, hide_mouse: bool = true) -> var
+```
+
+Pauses the game for a given duration
+Can be called from scripts with
+'yield(EgoVenture.pause(<duration>, <hide_mouse>), "completed")'
+
+** Arguments **
+
+- duration: pause duration in seconds
+- hide_mouse:
+    true (default): mouse cursor is hidden during pause
+    false: mouse cursor is visible during pause (if the cursor is visible when starting the pause)
+
 ## Signals
 
 - signal game_loaded(): Emits when the game was loaded

@@ -43,8 +43,6 @@ const VIEW_BACKRIGHT: String = "backright"
 const VIEW_FRONT: String = "front"
 ```
 
-view constants
-
 ### VIEW\_FRONTLEFT
 
 ```gdscript
@@ -110,8 +108,6 @@ The texture for the front view
 ```gdscript
 export var front_texture = "[Object:null]"
 ```
-
-The texture for the front view
 
 ### frontright\_texture
 
