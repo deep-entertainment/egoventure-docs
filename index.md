@@ -1,7 +1,5 @@
 ![EgoVenture logo](docs/images/logo.png)
 
-[![Support Server](https://img.shields.io/discord/777604957737451530.svg?label=Discord&logo=Discord&colorB=7289da&style=for-the-badge)](https://discord.gg/T6y6KG4V5K)
-
 # First person point and click adventure framework for Godot
 
 ## Introduction
@@ -13,6 +11,8 @@ Actually, this engine was originally made by MDNA games together with deep enter
 It's streamlined for their games, but may be of use for other developers as well. Thus we're releasing it as Open Source under the [MIT license](LICENSE).
 
 If you want to see all the features, EgoVenture provides, check out the [egoventure-example-game "Carol Refurbished"](https://github.com/deep-entertainment/egoventure-example-game).
+
+For support, join our [community support group on Signal](https://signal.group/#CjQKICTEs0uVxqkwRNhDgzW4Jk61u9vRVJQXgYvmb5B1hU5cEhC4Zvf8OrLfHtBehrqJTP8a).
 
 ```{toctree}
 --- 
